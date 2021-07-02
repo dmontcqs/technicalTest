@@ -1,0 +1,43 @@
+main h1{
+    color: #5c068c;
+    font-size: 18px;
+}
+
+article {
+    display: flex;
+    margin: 50px;
+}
+
+article ul li {
+    font: 14px;
+}
+
+
+
+@media all and (max-width: 480px) {
+
+    article {
+        flex-direction: column;
+    }
+
+
+    main h1 {
+        font-size: 16px;
+    }
+
+
+
+    article ul li {
+        font-size: 12px;
+        
+    }
+
+    .last-article {
+        display: none;
+    }
+
+}
+
+.newMain {
+    width: 480px;
+}
